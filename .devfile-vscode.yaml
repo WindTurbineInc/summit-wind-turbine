@@ -13,7 +13,7 @@ components:
         - name: MAVEN_OPTS
           value: "-Dmaven.repo.local=/home/user/.m2/repository" 
         - name: KUBEDOCK_ENABLED
-          value: true
+          value: "true"
       memoryLimit: 5Gi
       cpuLimit: 2500m
       volumeMounts:
