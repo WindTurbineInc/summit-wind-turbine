@@ -28,7 +28,8 @@ spec:
   type: service
   lifecycle: production
   owner: "user:default/blues-man"
-  providesApi: quinoa-wind-turbine-api
+  providesApis: 
+    - quinoa-wind-turbine-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
