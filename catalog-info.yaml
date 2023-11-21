@@ -28,3 +28,22 @@ spec:
   type: service
   lifecycle: production
   owner: "user:default/blues-man"
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: quinoa-wind-turbine-api
+  description: API to register users
+  links:
+    - url: https://editor.swagger.io/
+      title: Swagger UI
+      icon: web
+    - url: https://summit-wind-turbine-app-summit.apps.wearedevs.rl97.p1.openshiftapps.com/q/openapi.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "user:default/blues-man"
+  definition:
+    $text: https://summit-wind-turbine-app-summit.apps.wearedevs.rl97.p1.openshiftapps.com/q/openapi.yaml
