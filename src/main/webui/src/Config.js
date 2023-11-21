@@ -7,9 +7,9 @@ export const IS_TOUCH_DEVICE = (('ontouchstart' in window)
 // available cars images: 'car-classic-black', 'car-barbie', 'car-grey', 'car-red', 'car-blue-convertible', 'car-orange'
 export const TEAMS_CONFIG = [
   {
-    name: 'Carbonara',
-    color: 'orange',
-    car: 'car-orange',
+    name: 'Amatriciana',
+    color: 'red',
+    car: 'car-red',
   },
   {
     name: 'Gricia',
@@ -20,7 +20,7 @@ export const TEAMS_CONFIG = [
 
 // Dashboard
 export const TAP_POWER = 15; // in MW
-export const NB_TAP_NEEDED_PER_USER = DEV_MODE ? 10 : 151;
+export const NB_TAP_NEEDED_PER_USER = DEV_MODE ? 10 : 150;
 export const SHOW_TOP = 5;
 
 // Mobile app
