@@ -13,8 +13,8 @@ export const TEAMS_CONFIG = [
   },
   {
     name: 'Sauerkraut',
-    color: 'blue',
-    car: 'car-blue-convertible',
+    color: 'desert',
+    car: 'car-2',
   },
 ];
 
