@@ -7,14 +7,14 @@ export const IS_TOUCH_DEVICE = (('ontouchstart' in window)
 // available cars images: 'car-classic-black', 'car-barbie', 'car-grey', 'car-red', 'car-blue-convertible', 'car-orange'
 export const TEAMS_CONFIG = [
   {
-    name: 'Baklava',
+    name: 'Bratwurst',
     color: 'red',
-    car: 'car-3',
+    car: 'car-red',
   },
   {
-    name: 'Nevzine',
-    color: 'orange',
-    car: 'car-orange',
+    name: 'Sauerkraut',
+    color: 'blue',
+    car: 'car-blue-convertible',
   },
 ];
 
@@ -25,7 +25,7 @@ export const SHOW_TOP = 5;
 
 // Mobile app
 export const ENABLE_TAPPING = true;
-export const ENABLE_SHAKING = true; // 'false' in v1, set to 'true' in v2
+export const ENABLE_SHAKING = false; // 'false' in v1, set to 'true' in v2
 export const ENABLE_BLOWING = false;
 export const ENABLE_SWIPING = false;
 
