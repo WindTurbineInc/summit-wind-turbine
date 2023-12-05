@@ -7,12 +7,12 @@ export const IS_TOUCH_DEVICE = (('ontouchstart' in window)
 // available cars images: 'car-classic-black', 'car-barbie', 'car-grey', 'car-red', 'car-blue-convertible', 'car-orange'
 export const TEAMS_CONFIG = [
   {
-    name: 'Ferrari',
+    name: 'Chennai Super Kings',
     color: 'red',
     car: 'car-red',
   },
   {
-    name: 'Mercedes',
+    name: 'Royal Challengers Bangalore',
     color: 'gray',
     car: 'car-2',
   },
