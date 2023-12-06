@@ -8,13 +8,13 @@ export const IS_TOUCH_DEVICE = (('ontouchstart' in window)
 export const TEAMS_CONFIG = [
   {
     name: 'Chennai Super Kings',
-    color: 'red',
-    car: 'car-red',
+    color: 'gray',
+    car: 'car-2',
   },
   {
     name: 'Royal Challengers Bangalore',
-    color: 'gray',
-    car: 'car-2',
+    color: 'red',
+    car: 'car-red',
   },
 ];
 
